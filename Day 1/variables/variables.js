@@ -4,13 +4,12 @@
 // var is function-scoped that was traditionally to declare variables used while let and const
 // are both block-scoped whereby let allows reasignment and const allows only unchanged variable 
 
+const age = 25; // Declares a constant variable
+let name = "Leon"; // Declares a mutable variable
 
-const age = 25;
-let name = "Leon";
+let John = 4; // Declares a variable with value 4
+let sam = 5;  // Declares a variable with value 5
 
-let John = 4;
-let sam = 5;
+alert(John + sam); // Shows an alert with the sum (4 + 5 = 9)
 
-alert(John + sam)
-
-console.log(name)
+console.log(name); // Logs "Leon" to the console
