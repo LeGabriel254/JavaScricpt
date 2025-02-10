@@ -1,2 +1,2 @@
 # JavaScricpt
-This Repo contains my JavaScript Studies
+This Repository contains my JavaScript Studies
