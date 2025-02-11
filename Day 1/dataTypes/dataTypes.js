@@ -47,9 +47,18 @@ const pi = 3.14;
 let result = pi * radius **2
 console.log(result)
 
-let likes = 10;
+let like = 10;
 
 // likes = likes++;
-likes += 10
-console.log(likes)
+like += 10
+console.log(like)
 
+//template strings 
+const title = "Software Engineer"
+const author = "Leon Gabriel";
+const likes = 20;
+
+// template string way
+
+let results = `a ${title} by the name ${author} has ${likes} likes`
+console.log(results)
