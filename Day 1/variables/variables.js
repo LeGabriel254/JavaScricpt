@@ -12,7 +12,7 @@ let sam = 5;  // Declares a variable with value 5
 
 alert(John + sam); // Shows an alert with the sum (4 + 5 = 9)
 
-console.log(name); // Logs "Leon" to the console
+console.log(name) // Logs "Leon" to the console
 
 
 let message;
@@ -27,3 +27,10 @@ const  age = 22;
 const school = "Alx africa";
 
 console.log(`My data are: ${user} from ${school} ${age}`)
+
+// solution 
+let admin;
+let names;
+names = "john";
+admin = names;
+alert(admin)
