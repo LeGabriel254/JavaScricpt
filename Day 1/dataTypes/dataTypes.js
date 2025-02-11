@@ -59,6 +59,5 @@ const author = "Leon Gabriel";
 const likes = 20;
 
 // template string way
-
 let results = `a ${title} by the name ${author} has ${likes} likes`
 console.log(results)
