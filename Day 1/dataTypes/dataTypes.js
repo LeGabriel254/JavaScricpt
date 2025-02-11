@@ -37,4 +37,19 @@ console.log(fullName.length)
 
 
 //The Number this include both numbers and integers
+// Math operators [+,-,/,*,%]
+
+const radius = 10;
+const pi = 3.14;
+// console.log(radius, pi)
+
+// let result = radius % 3
+let result = pi * radius **2
+console.log(result)
+
+let likes = 10;
+
+// likes = likes++;
+likes += 10
+console.log(likes)
 
