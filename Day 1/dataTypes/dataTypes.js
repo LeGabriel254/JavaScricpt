@@ -61,3 +61,21 @@ const likes = 20;
 // template string way
 let results = `a ${title} by the name ${author} has ${likes} likes`
 console.log(results)
+
+
+// Arrays = is used to store collection of values
+const ninjas = ['Shuan', 'Leon', 'Eli']
+// console.log(ninjas)
+// console.log(ninjas[1]) //getting the number 1 item
+
+
+let random = ninjas.push('Ken') // .push() adds new value into an existing array
+ random = ninjas.pop() // pop returns the last added value
+console.log(random)
+
+//boolean and comparison they represent true or false
+//comparison operators
+
+let ages = 24;
+console.log(ages == 24) //true
+console.log(ages == 54) //tfalse
