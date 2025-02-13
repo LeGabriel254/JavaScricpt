@@ -54,16 +54,20 @@ let age = Number(prompt("How old are you"))
 // if age is bigger than 20 user is allowed and if is less than 20 user is not allowed 
 if(age > 20){
   alert("You are allowed")
-} else if(age < 20) {
+} else if(age) {
  alert("You are not allowed")
 } else {
-  alert("we will considor you")
+  alert("please enter a number")
 }
 
-let year =Number(prompt("Which year is this"))
+
 // if year is 2015 return you are good if not you are wrong
-if(year == 2015){
- alert("You are good")
+let year = Number(prompt("Enter a year:"));
+
+if (year === 2015) {
+  alert("You are good");
+} else if (year) {  // If year is a number but not 2015
+  alert("You are wrong");
 } else {
-  alert("You are wrong")
+  alert("Too late");
 }
