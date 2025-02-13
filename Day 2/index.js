@@ -17,7 +17,7 @@
 // if 
 
 // let age = Number(prompt("How old are you"))
- 
+
 // if age is bigger than 20 user is allowed
 // if(age > 20){
 //   alert("You are allowed")
@@ -31,7 +31,7 @@
 
 // else .. if
 // let age = Number(prompt("How old are you"))
- 
+
 // // if age is bigger than 20 user is allowed and if is less than 20 user is not allowed 
 // if(age > 20){
 //   alert("You are allowed")
@@ -50,14 +50,14 @@
 
 // else 
 let age = Number(prompt("How old are you"))
- 
+
 // if age is bigger than 20 user is allowed and if is less than 20 user is not allowed 
-if(age > 20){
+if (age > 20) {
   alert("You are allowed") // if user  is above 20
-} else if(age) {
- alert("You are not allowed")// if user is below 20 
+} else if (age) {
+  alert("You are not allowed")// if user is below 20 
 } else {
-  alert("please enter a number") //if its not a number return the alert
+  alert("please enter a number") //if its not a number return the alert or empety
 }
 
 
@@ -69,5 +69,16 @@ if (year === 2015) {
 } else if (year) {  // If year is a number but not 2015
   alert("You are wrong"); //if year is not 2015
 } else {
-  alert("put a number"); // if its not a number
+  alert("put a number"); // if its not a number or empty
 }
+
+
+
+//  use of ternary operator (? :) to simplify the if statement
+const name = prompt("Whats You name")
+
+
+// alert(name === "Leon"? 'Welcome back, Leon' : 'wrong user')
+
+
+alert(name === null || name.trim() === "" ? "please enter your name" : name === "Leon" ? "welcome back leon" : "wrong user");
