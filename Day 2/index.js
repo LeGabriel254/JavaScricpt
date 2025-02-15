@@ -74,7 +74,7 @@ if (year === 2015) {
 
 
 
-//  use of ternary operator (? :) to simplify the if statement
+// use of ternary operator (? :) to simplify the if statement
 const name = prompt("Whats You name")
 
 
